@@ -20,9 +20,6 @@ public class App {
                 B[i][j] = scanner.nextInt();
         int m = N * N;
         int sum = 0;
-        /*
-         * for (int i = 0; i < N; ++i) for (int j = 0; j < N; ++j)
-         */
         for (int[] x : B)
             for (int y : x)
                 sum += y;
